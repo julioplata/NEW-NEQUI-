@@ -41,10 +41,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <meta charset='UTF-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
         <title>Registro Exitoso</title>
-        <link rel='stylesheet' type='text/css' href='assets/css/normalize.css'>
-        <link rel='stylesheet' type='text/css' href='assets/css/nequi_two.webflow.css'>
-        <link rel='stylesheet' type='text/css' href='assets/css/nequi_one.webflow.css'>
-        <link rel='stylesheet' type='text/css' href='assets/css/main.css'>
+        <link rel='stylesheet' type='text/css' href='../public/assets/css/normalize.css'>
+        <link rel='stylesheet' type='text/css' href='../public/assets/css/nequi_two.webflow.css'>
+        <link rel='stylesheet' type='text/css' href='../public/assets/css/nequi_one.webflow.css'>
+        <link rel='stylesheet' type='text/css' href='../public/assets/css/main.css'>
     </head>
     <body>
         <h1>¡Registro exitoso!</h1>
@@ -57,7 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </body>
     </html>";
 } else {
-    header("Location: login.html");
+    header("Location: ../public/login.html");
     exit;
 }
 
